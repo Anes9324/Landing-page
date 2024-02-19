@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+ul li a {
+    color: #eee;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: aqua;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.container1 {
+    background-color: #1F2937;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    gap: 20px;
+
+}
+
+.header { 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.links-middle {
+    margin-left: auto;
+}
+
+.container1 .header .contact-button button {
+    color: black;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+
+.intoduction {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.introduction-content {
+    max-width: 500px;
+}
+
+.introduction-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.introduction-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introduction-content .introduction-action button {
+    color: black;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+.introduction-photo {
+    display: flex;
+    justify-content: center;
+}
+.introduction-photo img{
+    width: 500px;
+    height: auto;
+}
+
+main {
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-container1 {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main-container1 h2 {
+    text-transform: uppercase;
+}
+
+.main-container1 img {
+    width: 230px;
+    height: auto;
+}
+
+.conatainer2 {
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.main-container1 .conatainer2 .photo1-big {
+    color: #eee;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to bottom, transparent, rgb(31, 30, 30)), url("/img/photo-2-couple-roof.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.photo1-big h2 {
+    padding: 0px;
+    margin: 10px 0px 10px 60px;
+    font-family: "EB Garmond", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.photo1-big p {
+    padding: 0;
+    margin: 0 60px 30px 60px;
+}
+
+.photo2, 
+.photo3,
+.photo4 {
+    outline: 2px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-container2 {
+    align-self: stretch;
+    background-color: #E5E7EB;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container2 .comments {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container2 .comments p {
+    color: black;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+}
+
+.main-container2 .comments h4 {
+    margin: 0;
+    align-self: flex-end;    
+}
+
+.signup {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .signup-container {
+    padding: 40px 180px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px
+}
+
+.signup .signup-container .signup-box .signup-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;;
+}
+
+.signup .signup-container .signup-box .signup-text {
+    font-size: 15px;
+}
+
+
+.signup .signup-container .signup-button button {
+    background-color: transparent;
+    border-width: 1.5px;
+    border-color: #eee;
+    border-radius: 5px;
+    color: #eee;
+    padding: 5px 25px;
+    font-weight: 500;
+}
+
+.footer {
+    height: 5vh;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+}
